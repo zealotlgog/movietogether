@@ -26,7 +26,7 @@ CREATE  TABLE IF NOT EXISTS `weibomovie`.`cinema` (
   `cinemaid` INT NOT NULL ,
   `country` VARCHAR(45) NOT NULL ,
   `city` VARCHAR(45) NOT NULL ,
-  `district` VARCHAR(45) NOT NULL ,
+  `district` VARCHAR(45) NULL ,
   `name` VARCHAR(45) NOT NULL ,
   PRIMARY KEY (`cinemaid`) ,
   UNIQUE INDEX `id_UNIQUE` (`cinemaid` ASC) )
